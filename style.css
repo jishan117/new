@@ -1,0 +1,121 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    text-align: center;
+}
+
+.container{
+    max-width: 500px;
+    min-height: 100vh;
+    background-color: rgba(0, 255, 255, 0);
+    margin: auto;
+}
+.get-facebook{
+    height:40px;
+    background-color:#FFFBE2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+h2{
+    color: blue;
+    padding: 15px;
+}
+
+.input{
+    width: 90%;
+    height: 35px;
+    margin: 3px;
+    border: 1px solid rgba(204, 201, 201, 0.527);
+    border-radius: 4px;
+    background-color: #f8f8f888;
+    padding: 5px;
+    box-shadow: 1px 1px 1px 1px rgba(180, 180, 180, 0.185);
+}
+
+.submit{
+    width: 90%;
+    height: 35px;
+    margin: 3px;
+    border: 1px solid rgb(204, 201, 201);
+    border-radius: 4px;
+    background-color: #4e4cfc;
+    box-shadow: 1px 1px 1px 1px rgba(180, 180, 180, 0.185);
+    color: white;
+    font-size: 1.009rem;
+    font-weight: bold;
+
+
+}
+
+.div_fp{
+    margin: 5px;
+}
+.forgottenpassword{
+    font-size: 14px;
+    text-decoration: none;
+    color: #4e4cfc;
+    
+}
+
+.hr{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.hr p{
+    margin: 5px;
+    color: rgb(90, 90, 90);
+}
+hr{
+    width: 45%;
+    height: 1px;
+    border: none;
+    background-color: rgb(192, 191, 191);
+}
+
+.creat{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: rgb(23, 175, 23);
+    border-radius: 3px;
+    padding: 9px;
+    
+}
+
+footer{
+    color: #4f4f50;
+    margin: 0 auto;
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 240px;
+    width: 70%;
+}
+
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 4px;
+}
+
+.footer-right{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 4px;
+}
